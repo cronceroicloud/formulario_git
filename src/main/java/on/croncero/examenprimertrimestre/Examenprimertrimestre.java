@@ -11,7 +11,8 @@ package on.croncero.examenprimertrimestre;
 public class Examenprimertrimestre {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("hola1");
+        Formulario form = new Formulario();
+        form.setVisible(true);
+   
     }
 }
